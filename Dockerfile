@@ -15,6 +15,8 @@ COPY . .
 
 # Expose the port the app runs on
 EXPOSE 8081
+EXPOSE 443
+EXPOSE 80
 
 # Command to run the app
 CMD ["node", "index.js"]
